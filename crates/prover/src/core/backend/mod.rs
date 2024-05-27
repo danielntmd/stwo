@@ -17,6 +17,7 @@ pub mod gpu;
 pub mod avx512;
 
 pub mod cpu;
+pub mod gpu;
 pub mod simd;
 
 pub trait Backend:
