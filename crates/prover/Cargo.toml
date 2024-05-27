@@ -17,6 +17,8 @@ num-traits.workspace = true
 rand = { version = "0.8.5", default-features = false, features = ["small_rng"] }
 thiserror.workspace = true
 tracing.workspace = true
+cudarc.workspace = true
+once_cell.workspace = true
 
 [dev-dependencies]
 aligned = "0.4.2"
